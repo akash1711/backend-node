@@ -66,6 +66,6 @@ mongoose
     "mongodb+srv://admin1:J8I1Ul8i2pQb27vm@cluster0.wap0k.mongodb.net/newLogin?retryWrites=true&w=majority"
   )
   .then((result) => {
-    app.listen(8080);
+    app.listen(80);
   })
   .catch((err) => console.log(err));
